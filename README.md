@@ -1,33 +1,72 @@
-# Full-Stack My Basecamp 1
-## MyBasecamp1
-What is basecamp?
-It's a web-based project management tool launched in 2004. Its primary features are to-do lists, milestone management, forum-like messaging, file sharing, and time tracking - [basecamp](https://basecamp.com/)
+# Welcome to My Basecamp 1
+***
 
-You will have a to create a website which mimique features from the original tools. It means having a database, a backend and a frontend.
-This project is splitted in 3 parts.
+## Task
+Create MyBaseCamp, a web-based project management tool inspired by Basecamp, with features for user registration, session management, role permissions, and project management.
 
-We want our users to create their accounts, to connect and create projects!
+## Description
+MyBaseCamp is a full-stack web application developed using ReactJS for the frontend and Node.js/Express.js for the backend. MongoDB is utilized as the database to store user and project data.
 
-As developer you need to think about the User Experience and it needs to be great.
+## Installation
+To run the project locally:
 
-Here is the technical specifications:
+1. Clone the repository:
+```
+git clone <repository_url>
+```
 
-First step of MyBaseCamp should have the following features:
 
-### Features:
+2. Navigate to the project directory:
+```
+cd <project_directory>
 
-1. User Registration - User #new - User #show - User #create - User #destroy
-In summary, you should be able to create a new user, delete a user, and as a new user, create an account yourself.
+```
 
-2. Session - User #sign_in - User #sign_out
-Users should be able to log in and log out.
 
-3. Role Permission - User setAdmin - User removeAdmin
-This means you will have two types of permissions, someone who is a user, and someone who is a user and an admin. We want the ability to also remove the admin permission from a user.
+3. Install dependencies for both frontend and backend:
+```
+cd frontend
+```
+```
+npm install
+```
+```
+cd ../backend
+```
+```
+npm install
+```
 
-4. Project - Project #new - Project #show - Project #edit - Project #destroy
-Similar to the real Basecamp, users should be able to create, edit, and destroy a project.
+4. Set up environment variables:
+   - Create a .env file in the backend directory.
+   - Add necessary environment variables like PORT, MONGODB_URI, JWT_SECRET, etc.
 
-Example:
+5. Start the backend server:
+```
+npm start
+```
 
-![image](https://github.com/bahtibek-an/Full-Stack-My-Basecamp-1/assets/57597976/2f3fbd37-b3cb-4156-981a-8f30237c7f6a)
+
+7. Access the application in your web browser using the provided URL (typically http://localhost:3000).
+
+## Usage
+Once the application is running, users can:
+- Register a new account.
+- Log in to their account.
+- Create, edit, and delete projects.
+- Assign admin roles to users.
+- Revoke admin permissions.
+- Log out securely.
+
+### The Core Team
+ * Azizbek Xujayorov
+
+
+<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
+<span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px' /></span>
+
+
+
+
+
+
